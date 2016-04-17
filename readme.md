@@ -12,12 +12,16 @@ This is a WPF application and you need the .NET Framework to run it.
 
 ## Usage
 
-1. Get the download from
+1. Get the download from https://github.com/ikhwanhayat/Hiwayan/releases
 2. Unzip it somewhere. Make a shortcut to `Hiwayan.exe` to the Desktop if you like to.
 3. Edit the `Hiwayan.exe.config` to insert the movie list.
-   ```xml
-   <HiwayanConfiguration>
-    <MediaList>
+4. The path for the video file and thumbnail image is mandatory
+5. Run `Hiwayan.exe`. Upon clicking/tapping the thumbnail, the default program that plays the video file will be launched.
+
+## Configuration
+```
+<HiwayanConfiguration>
+   <MediaList>
       <Media>
         <Path>path to first video file</Path>
         <Thumbnail>path to first poster thumbnail file</Thumbnail>
@@ -30,8 +34,6 @@ This is a WPF application and you need the .NET Framework to run it.
         <Path>path to n-th video file</Path>
         <Thumbnail>path to n-th poster thumbnail file</Thumbnail>
       </Media>
-    </MediaList>
-  </HiwayanConfiguration>
-  ```
-4. The path for the video file and thumbnail image is mandatory
-5. Run `Hiwayan.exe`. Upon clicking/tapping the thumbnail, the default program that plays the video file will be launched. 
+   </MediaList>
+</HiwayanConfiguration>
+```
