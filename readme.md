@@ -3,7 +3,9 @@
 This program is intended to solve one thing: To stop my 4yo kid from nagging me to 
 open her favorite cartoons on the computer.
 
-I can hardly understand which animated movies she wanted to watch some since she 
+![Hiwayan Screenshot](http://i.imgur.com/o1IffH4.jpg)
+
+I can hardly understand which animated movies she wanted to watch since she 
 doesn't know the title and often just refer to a movie as "the bear movie" 
 or "that one with elephants". So with this program, she can launch it from the 
 desktop and just tap the film poster image to view it.
